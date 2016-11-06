@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Java-DB-Starter-Ivan
+  host: Java-DB-Starter-Ivan
+  disk_quota: 1024M
+  services:
+  - Java-DB-Starter-Ivan-cloudantNoSQLDB
